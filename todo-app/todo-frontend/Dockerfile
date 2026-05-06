@@ -21,7 +21,7 @@ WORKDIR /usr/src/app
 COPY --from=test-stage /usr/src/app .
 
 ARG VITE_BACKEND_URL='http://localhost:3000'
-ENV VITE_BACKEND_URL=$VITE_BACKEND_URL
+ENV VITE_BACKEND_URL=/api
 
 #RUN npm ci
 
