@@ -17,6 +17,3 @@ docker build -t todo-backend ./todo-backend
 docker compose up --build
 ```
 Access the app at: http://localhost:8080 
-
-## Link to the git in countries project: 
-[containerized countries app](https://github.com/Archt111/fullstack_hel/tree/main/countries-app)
